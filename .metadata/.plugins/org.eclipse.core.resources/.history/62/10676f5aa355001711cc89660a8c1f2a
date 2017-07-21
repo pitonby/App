@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Электронная заявка</title>
+</head>
+<body>
+Заполните поля и нажмите кнопку "Отправить"
+	<form method="POST" action="AddApplication"><Br>
+	Имя<input type="text" name="firstName">
+	Фамилия<input type="text" name="secondName">
+	Отдел<input type="text" name="department"><Br><Br>
+	Табельный номер<input type="text" name="id_number">
+	Инвентарный номер компьютера<input type="text" name="pc_number">
+	<p>Электронное обращение (Макс. количество символов 256)<Br>
+   <textarea name="text" cols="100" rows="10"></textarea></p>
+	<input type="submit" value="Отправить">
+	</form>
+</body>
+</html>

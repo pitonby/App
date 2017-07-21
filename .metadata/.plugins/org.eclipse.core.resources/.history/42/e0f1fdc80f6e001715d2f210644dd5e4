@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Меняй заявку, ёпта</title>
+</head>
+<body>
+    
+	<table width="450" border="1">
+                    
+                    
+                    
+                        <tr>
+                            <th><c:out value="${app.id}"/></th>
+                            <th><c:out value="${app.firstName}"/></th>
+                            <th><c:out value="${app.secondName}"/></th>
+                            <th><c:out value="${app.department}"/></th>
+                            <th><c:out value="${app.id_number}"/></th>
+                            <th><c:out value="${app.pc_number}"/></th>
+                            <th><c:out value="${app.text}"/></th>
+                            <th><c:out value="${app.enumFlag}"/></th>
+                            <th><c:out value="${app.startTime}"/></th>
+                            <th><c:out value="${app.endTime}"/></th>                                                  
+                        </tr>                   		                 
+                </table>
+                <form method="POST" action="Start">               
+                <button type="submit" name="Начать выполнение" value="${a.id}"></button>>
+	            </form>
+	            <form method="POST" action="End">
+                <button type="submit" name="Закончить выполнение" value="${a.id}"></button>>
+	            </form>
+</body>
+</html>

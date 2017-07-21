@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Сервис электронных заявок</title>
+	</head>
+	<body bgcolor="#53ad72" text="#000000">
+	<table>
+		<caption>Выберите нужный пункт меню</caption>
+   	<tr>
+    <th></th>
+    <th></th>
+    
+   </tr>
+   <tr><td><p><a href="doApp.html">
+   		<figure class="sign">
+   			<p><img src="images/pen.jpg"></p>
+   			<figcaption>Создать заявку!</figcaption>
+  		</figure>
+  		</a>
+  		</p></td>
+  		<td><p><a href="admin.html">
+   		<figure class="sign">
+   			<p><img src="images/goggles.jpg"></p>
+   			<figcaption>Администрирование</figcaption>
+  		</figure>
+  		</a>
+  		</p>
+  	</td></tr>
+   	</table>
+  		
+  		
+		
+	</body>
+</html>

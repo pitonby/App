@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Список заявок</title>
+</head>
+<body>
+
+
+ <table width="450" border="1">
+                    
+                    
+                    <c:forEach var="a" items="${list}">
+                        <tr>
+                            <th><c:out value="${a.id}"/></th>
+                            <th><c:out value="${a.firstName}"/></th>
+                            <th><c:out value="${a.secondName}"/></th>
+                            <th><c:out value="${a.department}"/></th>
+                            <th><c:out value="${a.id_number}"/></th>
+                            <th><c:out value="${a.pc_number}"/></th>
+                            <th><c:out value="${a.text}"/></th>
+                            <th><c:out value="${a.enumFlag}"/></th>
+                            <th><c:out value="${a.startTime}"/></th>
+                            <th><c:out value="${a.endTime}"/></th>
+                            <th>
+                                <form method="GET" action="EditApp">
+                                <c:set var="a" value="${a.id}" />
+                                <c:set var="a" value="${a.firstName}" />
+                                <c:set var="a" value="${a.secondName}" />
+                                <c:set var="a" value="${a.department}" />
+                                <c:set var="a" value="${a.id_number}" />
+                                <c:set var="a" value="${a.pc_number}" />
+                                <c:set var="a" value="${a.text}" />
+                                <c:set var="a" value="${a.enumFlag}" />
+                                <c:set var="a" value="${a.startTime}" />
+                                <c:set var="a" value="${a.endTime}" />
+                                <input type="submit" value="Редактировать">
+	                            </form>
+                            </th>
+                          
+                        </tr>
+                    </c:forEach>
+                    
+                </table>
+
+</body>
+</html>

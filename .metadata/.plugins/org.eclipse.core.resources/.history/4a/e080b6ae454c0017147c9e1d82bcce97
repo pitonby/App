@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Сервис электронных заявок</title>
+	</head>
+	<body>
+   		<p><a href="doApp.html"><img src="images/pen.jpg" align="top" />Текст вверху изображения</a></p>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Сервис электронных заявок</title>
+<style>
+   .sign {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+   }
+   .sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+   }
+  </style>
+</head>
+<body>
+<figure class="sign">
+<p><a href="doApp.html"><img src="images/pen.jpg" ></a>
+<figcaption>Оставить заявку</figcaption>
+</figure>
+
+</body>
+</html>

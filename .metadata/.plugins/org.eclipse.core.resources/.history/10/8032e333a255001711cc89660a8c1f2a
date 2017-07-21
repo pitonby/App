@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Сервис электронных заявок</title>
+	</head>
+	<body>
+   		<p><a href="doApp.html">
+   		<figure class="sign">
+   			<p><img src="images/pen.jpg"></p>
+   			<figcaption>Создать заявку!</figcaption>
+  		</figure>
+  		</a>
+  		</p>
+  		
+  		<p><a href="admin.html">
+   		<figure class="sign">
+   			<p><img src="images/goggles.jpg"></p>
+   			<figcaption>Администрирование</figcaption>
+  		</figure>
+  		</a>
+  		</p>
+		
+	</body>
+</html>

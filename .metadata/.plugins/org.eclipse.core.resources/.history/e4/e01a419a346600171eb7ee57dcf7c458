@@ -1,0 +1,15 @@
+package domain;
+
+public enum Flags {
+	
+	Новое,
+	Текущее,
+	Завершено;
+	
+	public String toString(){
+		
+		return this.toString();
+		
+	}
+	
+}
